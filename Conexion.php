@@ -14,3 +14,4 @@ header('Access-Control-Allow-Origin: *');
 // imprimir si la conexion funciono o no
 $exito = !($conn === FALSE);
 echo json_encode($exito);
+?>
