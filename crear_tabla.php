@@ -29,3 +29,4 @@ while ($fila = pg_fetch_assoc($resultado)) {
   array_push($gente, $fila);
 }
 echo json_encode($gente);
+?>
